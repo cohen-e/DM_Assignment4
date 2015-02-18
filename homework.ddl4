@@ -1,0 +1,24 @@
+drop view sim_manager ;
+
+create view sim_manager as
+SELECT title, TYPE, bonus, dept_id 
+FROM sim_person
+WHERE TYPE = 'Manager' ;
+
+create or replace TRIGGER person_trigger
+     INSTEAD OF insert ON sim_manager
+     FOR EACH ROW
+BEGIN
+     insert into sim_person(
+        title,
+        TYPE,
+        bonus,
+        dept_id)
+     VALUES (
+        :new.title,
+        'Manager',
+        :new.bonus,
+        :new.dept_id) ;
+END;
+/
+

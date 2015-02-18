@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D057314-D35F-1597-B761-16298A7463E2" name="sim_projecte">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>CDBCC92C-B31E-8F20-FD26-D9F6E9C84FC0</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="projecte_id" id="33316E07-226E-353B-AD64-9884DE4A4977">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>A44D9367-6FF2-3DC4-BB11-AA16DF888A9C</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="project_id" id="E8ED6D0A-B9A5-0782-A672-AF5161B38B70">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>0223BE56-C09E-DEE8-D511-BE99A2668C1D</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="person_id" id="B5479DEE-EFF8-A378-6F74-2675B2F30A57">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>4C4D982F-A3CC-A3E5-860E-5B309D295AC6</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sim_project_project_id" id="A9ECFFA6-2F89-21C2-B36F-057348A616F4">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>8791F61E-79ED-C1CB-0B54-8C538BCC023F</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C7F9E464-CB2C-C455-61C9-A1ABE2610324</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F953FDD-99AF-4997-AA3D-884E5637805A" referredColumn="C7F9E464-CB2C-C455-61C9-A1ABE2610324"/>
+</associations>
+</Column>
+<Column name="sim_person_person_id" id="A94B6E23-8135-8BA1-B2C5-033E2237EB61">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>183282B9-BA6C-1D69-F741-DE53D4F350BA</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>81205B17-1F33-DAA3-EE35-A2EC0BBBF352</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63BE68D4-BFF9-AD63-6102-A2B96542655A" referredColumn="81205B17-1F33-DAA3-EE35-A2EC0BBBF352"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="204286CC-C403-AFCD-BE4B-540788D4B75B" name="sim_projecte_PK">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>45CE5974-1103-9F3A-A3D8-1137A389AD5A</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33316E07-226E-353B-AD64-9884DE4A4977"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="659B7E0D-B65F-E2AE-A9D7-4CD68CFA783D" name="sim_projecte_sim_project_FK">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>F3E31226-2E29-C7CB-F108-0C5A2823B1CD</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9ECFFA6-2F89-21C2-B36F-057348A616F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55FF7DCA-6C8A-2934-BD93-3F29C90EA1E0" name="sim_projecte_sim_person_FK">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>7C83B5E1-ABFE-82CC-1F0A-C27C863ABDBC</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A94B6E23-8135-8BA1-B2C5-033E2237EB61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,296 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B469794B-1284-5F74-67F2-5BC5954D8F2B" name="sim_person">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>A886217E-2F7A-27EB-93D1-A5C10274E53F</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="81205B17-1F33-DAA3-EE35-A2EC0BBBF352">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>AC87E4A3-027A-4FFE-A4BB-7185049B2539</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_id" id="1B147E71-4F43-1ECF-414C-E1EF0CE290B5">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>11E67400-6125-EF8D-C652-C5E85852EBDC</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="project_id" id="6D6DD8C8-D170-6ABE-DCE8-DE5E37C1D252">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>DBDEBC0A-82A2-F180-1D27-6FA6A1991937</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="4D59411D-1F06-9DE6-5A81-A9C219B3FFC6">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>D7413067-6E50-9382-6BEE-F905AA3C99FC</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ssnum" id="7E84DAC3-D53E-C143-1567-83868BB6C97E">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>AD135C39-14E0-18D5-C9AC-AE7A62D06C9B</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="151FF260-3F51-5593-FC9D-8CF98A21CBEA">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>AA0C9492-61AB-BAAB-273B-938F39AC1D96</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth_date" id="0471E2B5-8DEE-0839-13DA-8CB94928E757">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>679CD4D9-E652-3905-7F1F-6F34CC493DB0</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="8608C06A-3020-15A9-2F64-5A8ABA4B0309">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>6AC2D7F8-4F37-11A0-BA48-8736C0508254</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="1F34EF7D-BA35-E887-F6A9-5E3E938802AA">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>C1941FD1-FB3B-7E39-4BEE-772A2327331A</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="E550FA30-5BA7-5FBD-C279-A4E487BEA8C8">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>897E9503-59E9-7742-1DDC-02C215A953FB</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip" id="827D2643-64B2-8E1A-86CA-7A95E7FCB0EC">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>C2CA7358-CFD8-FB77-C86D-F8DCB5D249FC</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hire_date" id="07196FF4-1AA8-7CFB-0349-B8B56CB2CC45">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>FCD56231-1FFE-F3DB-D8B2-2D5A50EF58F8</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="0096866B-4E58-CDB2-8D9B-C962F549560D">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>6C58941C-E834-E00E-7180-0A82A0B2789D</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="535CBCE8-8B65-EE43-7A93-BD329291726C">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>83C8B6DE-31D1-0AE2-3A13-F92F69FA357D</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="35F4A425-78CF-B7AB-0E68-1A05DCE3214D">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>88AA4C66-0F62-9DF3-4FB1-1BDAFCADC9B6</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="E393CC40-7D49-93B9-FE08-F96C38435869">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>EA5CF26D-D71C-6BD8-EAD9-81CB301449D4</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bonus" id="3B5E6CA0-5E56-C546-0CBF-DBB1CD71621D">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>1369928A-A25E-0228-2F2F-F8E4EEAB5AF2</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="8588069E-E2E3-8ABA-DB91-04FB22E1FEE6">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>FB39AE4F-B1A1-B3E4-ED3B-12999D72CA25</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sim_dept_dept_id1" id="D63B69C9-9F55-DFC2-2569-0959F239DA4F">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>A8A42933-42CD-010C-623A-62F675938AE0</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>E3A241D7-85A1-8B38-19CD-E17B7FC201A1</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85738A06-199B-D25A-A454-A8D41A673C04" referredColumn="E3A241D7-85A1-8B38-19CD-E17B7FC201A1"/>
+</associations>
+</Column>
+<Column name="sim_dept_dept_id" id="F880B26B-791B-B044-8AE7-FBBDF237E899">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>81B1AB60-0857-06B3-63A7-53CDD1EC66BD</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>E3A241D7-85A1-8B38-19CD-E17B7FC201A1</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6991C309-08A4-EAC0-63BD-BE7060C70EF6" referredColumn="E3A241D7-85A1-8B38-19CD-E17B7FC201A1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="718233DE-7706-8E41-1990-7721B5100213" name="sim_person_PK">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>194629A6-F824-0D04-317E-ECC4E06D0C3B</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81205B17-1F33-DAA3-EE35-A2EC0BBBF352"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71F80DC7-2939-53E7-22D6-3936934078CE" name="sim_person__IDX">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>384F1F49-862D-A375-2536-225CC558A4DE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D63B69C9-9F55-DFC2-2569-0959F239DA4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69977358-5510-2B83-C6AE-7377D9F219EB" name="sim_person_sim_dept_FK">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>5B5FB0AC-06DA-F547-4062-AE0F9E8A7003</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F880B26B-791B-B044-8AE7-FBBDF237E899"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D641BB0A-02AD-AB3D-1F82-29315AFFD941" name="sim_person_sim_dept_FKv1">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>384F1F49-862D-A375-2536-225CC558A4DE</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D63B69C9-9F55-DFC2-2569-0959F239DA4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

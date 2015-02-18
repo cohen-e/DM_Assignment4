@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E56D960A-51E3-60DA-7182-149F624A34FF" name="sim_dept">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>8B6CD7E8-4B93-474C-6036-320540AB16F2</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dept_id" id="E3A241D7-85A1-8B38-19CD-E17B7FC201A1">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>3A299837-3F0D-A992-FE94-A8BCA860A093</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="C7F86352-6D75-C493-A47F-19ACE721EA17">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>0DCDE1AB-D91B-A114-0FB5-1A30BF369E73</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="31258B85-ECE7-3A8B-9B6B-9F8804E400C9">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>4E321DCD-07FA-80CB-24DD-D90934C22DAE</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sim_person_person_id" id="C0119BC6-E883-AA54-1E90-FD11867474C3">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>D05E2FB1-1118-5F63-2C06-1E8C0EF33832</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>81205B17-1F33-DAA3-EE35-A2EC0BBBF352</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD6EAFDF-D59C-49DA-5D26-939C19D65223" referredColumn="81205B17-1F33-DAA3-EE35-A2EC0BBBF352"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02BE22DD-2041-CACD-E3CE-2B4ACD5635E3" name="sim_dept_PK">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>09E23AB6-0B98-B16F-41BA-D6D33E8DAD9A</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3A241D7-85A1-8B38-19CD-E17B7FC201A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55B2F139-B6CC-9303-F300-A6034D5E29B2" name="sim_dept__IDX">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>384F1F49-862D-A375-2536-225CC558A4DE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C0119BC6-E883-AA54-1E90-FD11867474C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D1202F8-CD23-991C-FF80-CE51DEDE70F4" name="sim_dept_sim_person_FK">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 22:36:31 UTC</createdTime>
+<generatorID>384F1F49-862D-A375-2536-225CC558A4DE</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0119BC6-E883-AA54-1E90-FD11867474C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

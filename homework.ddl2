@@ -1,0 +1,80 @@
+DROP SEQUENCE sim_dept_seq ; 
+create sequence sim_dept_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER sim_dept_PK_trig 
+; 
+
+create or replace trigger sim_dept_PK_trig 
+before insert on sim_dept
+for each row 
+begin 
+select sim_dept_seq.nextval into :new.dept_id from dual; 
+end; 
+/
+
+DROP SEQUENCE sim_person_seq ; 
+create sequence sim_person_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER sim_person_PK_trig 
+; 
+
+create or replace trigger sim_person_PK_trig 
+before insert on sim_person
+for each row 
+begin 
+select sim_person_seq.nextval into :new.person_id from dual; 
+end; 
+/
+
+DROP SEQUENCE sim_project_seq ; 
+create sequence sim_project_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER sim_project_PK_trig 
+; 
+
+create or replace trigger sim_project_PK_trig 
+before insert on sim_project
+for each row 
+begin 
+select sim_project_seq.nextval into :new.project_id from dual; 
+end; 
+/
+
+DROP SEQUENCE sim_projecte_seq ; 
+create sequence sim_projecte_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER sim_projecte_PK_trig 
+; 
+
+create or replace trigger sim_projecte_PK_trig 
+before insert on sim_projecte
+for each row 
+begin 
+select sim_projecte_seq.nextval into :new.projecte_id from dual; 
+end; 
+/
+
+DROP INDEX sim_person_person_id_FK_0 ;
+CREATE INDEX sim_person_person_id_FK_0 ON sim_dept(sim_person_person_id) ;
+DROP INDEX sim_dept_dept_id_FK_1 ;
+CREATE INDEX sim_dept_dept_id_FK_1 ON sim_person(sim_dept_dept_id) ;
+DROP INDEX sim_dept_dept_id1_FK_2 ;
+CREATE INDEX sim_dept_dept_id1_FK_2 ON sim_person(sim_dept_dept_id1) ;
+DROP INDEX sim_dept_dept_id_FK_3 ;
+CREATE INDEX sim_dept_dept_id_FK_3 ON sim_project(sim_dept_dept_id) ;
+DROP INDEX sim_person_person_id_FK_4 ;
+CREATE INDEX sim_person_person_id_FK_4 ON sim_projecte(sim_person_person_id) ;
+DROP INDEX sim_project_project_id_FK_5 ;
+CREATE INDEX sim_project_project_id_FK_5 ON sim_projecte(sim_project_project_id) ;

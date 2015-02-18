@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6BE94343-EC4A-8652-AAAE-13D7F4C9E59C" name="sim_project">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-16 10:22:15 UTC</createdTime>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<engineerTo>
+<item key="12C2943B-33DF-A6AB-4E16-A8C3339DA110" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="project_id" id="ECDDBB38-C4F8-C5BA-E74F-37B302126681">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-16 10:22:59 UTC</createdTime>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<engineerTo>
+<item key="12C2943B-33DF-A6AB-4E16-A8C3339DA110" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="16F134E5-00A9-B21E-7B9F-A491041C734C">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-16 10:23:39 UTC</createdTime>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<engineerTo>
+<item key="12C2943B-33DF-A6AB-4E16-A8C3339DA110" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="dept_id" id="017DA0B5-8222-4DDB-3412-6C2747B8E63E">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-16 12:17:12 UTC</createdTime>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<engineerTo>
+<item key="12C2943B-33DF-A6AB-4E16-A8C3339DA110" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id1" id="FAF6471F-2FA9-E6CB-4A0D-6EEE1C4CD407">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-17 21:55:46 UTC</createdTime>
+<generatorID>C5376FB0-506E-10FB-E6D3-D2269CDD0E38</generatorID>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<engineerTo>
+<item key="12C2943B-33DF-A6AB-4E16-A8C3339DA110" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3A299837-3F0D-A992-FE94-A8BCA860A093</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="64B1EECC-C4D4-7113-ABFF-3E4074EA240A" name="{entity} PK">
+<createdBy>Cohen</createdBy>
+<createdTime>2015-02-16 10:23:11 UTC</createdTime>
+<ownerDesignName>Assignment_4</ownerDesignName>
+<engineerTo>
+<item key="12C2943B-33DF-A6AB-4E16-A8C3339DA110" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ECDDBB38-C4F8-C5BA-E74F-37B302126681</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
